@@ -12,7 +12,10 @@ export default createRouter({
         },
         {
             path: '/countries',
+            name: 'Countries',
             component: Countries
-        }
+
+        },
+        
     ]
 });
