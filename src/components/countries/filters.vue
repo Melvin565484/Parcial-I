@@ -10,9 +10,6 @@
         </div>
     </div><br />
     {{ $store.state.currentRegion }}<br /><br />
-    <div>
-</div>
-
 </template>
 
 <script>
@@ -34,6 +31,5 @@ export default {
             }
         }
     }
-
 }
 </script>

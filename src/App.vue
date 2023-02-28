@@ -1,13 +1,9 @@
 <template>
-<Navbar brandName="Countries API" />
+  <nav>
+      <router-link to="/">Home</router-link> | 
+      <router-link to="/countries">Countries</router-link> | 
+      <router-link to="/Name">Countries Name</router-link>
+      
+  </nav>
   <router-view />
 </template>
-<script>
-  import Navbar from '../src/components/Navbar/index.vue';
-
-  export default({
-    components: {
-      Navbar
-    }
-  })
-</script>

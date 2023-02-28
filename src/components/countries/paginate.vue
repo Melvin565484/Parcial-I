@@ -10,7 +10,6 @@
 </template>
 
 <script>
-
 import Paginate from 'vuejs-paginate-next';
 
 export default({
@@ -31,7 +30,6 @@ export default({
             }
             return this.pageCount
         },
-    
         currentPage: {
             get(){
                 return this.$store.state.currentPage
@@ -42,6 +40,7 @@ export default({
         }
     }
 })
+
 </script>
 <style lang="css">
   /* Adopt bootstrap pagination stylesheet. */
