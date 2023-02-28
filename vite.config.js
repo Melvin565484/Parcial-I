@@ -3,6 +3,6 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base:'/Parcial-1',//nombre del repositorio en git hub
+  base:'/Parcial-I/',//nombre del repositorio en git hub
   plugins: [vue()],
 })
