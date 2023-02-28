@@ -17,7 +17,7 @@ export default createRouter({
             component: Countries
         },
         {
-            path: '/',
+            path: '/name',
             component: Name
         },
        
